@@ -3,6 +3,7 @@ import sys
 from math import exp
 import numpy as np
 import numpy.random as random
+import pandas as pd
 
 random.seed()
 
@@ -130,3 +131,5 @@ for line in sys.stdin:
 
         print str(test_case) + ',' + str(question_type) + ',' \
             + str(int(round(price)))
+        
+        return ans
